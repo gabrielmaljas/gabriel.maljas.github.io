@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <link rel="stylesheet" type="text/css" href="./about.css">
+        <link rel="stylesheet" type="text/css" href="./project.css">
+        <link rel="stylesheet" type="text/css" href="./footer.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link rel="shortcut icon" href="#">
+        <link rel = "icon" href="./src/logo.png" type="image/x-icon">
+        <title> Gabriel Maljas </title>
+</head>
+<script src="three.r119.min.js"></script>
+<script src="vanta.dots.min.js"></script>
+
+<body>
+  <nav>
+    <a href = "#about" >
+    <div class = "logo">
+      <h4> Portfolio </h4>
+    </div>
+    </a>
+    <ul class="nav-links">
+      <li>
+        <a href = "#about">About</a>
+      </li>
+      <li>
+        <a href = "#projects">Projects</a>
+      </li>
+      <li>
+        <a href = "./index.html"><img id = "DE" alt ="DE" src = "./src/DE.png"></img></a>
+        <a href = "./en.html"><img id = "EN" alt ="EN" src = "./src/EN.png"></img></a>
+      </li>
+      
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+  <main>
+    <div id = "about" class = "about">
+        <script>
+            VANTA.DOTS({
+              el: "#about",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              color: 0xa7a7a7,
+              color2: 0xf2f2f2,
+              backgroundColor: 0x0,
+              size: 3.00,
+              spacing: 17.00
+            })
+        </script>
+        <div class= "infos">
+            <h1>Gabriel Maljas </h1>
+            <img id= "Picture" alt = "Portait" src = "./src/PassBildRund.png"></img>
+            <h2>Game- and Webdeveloper </h2>
+            <h3>I'm a learning programmer from Heidelberg<h3>
+        </div>
+    </div>
+    <div class = "work">
+        <div class = "headline">
+            <h1 class = "games">Games</h1>
+            <ul class = "projectlist">
+                <li id = "oceanssilence">Ocean's Silence</li>
+                <li id = "masks">Masks</li>
+                <li id = "ingredientwars">Ingredient Wars</li>
+            </ul>
+            <h1 class = "websites">Websites</h1>
+             <ul class = "projectlist">
+                <li id = "nostalgames">Nostal Games</li>
+                <li id = "portfolio">Portfolio</li>
+            </ul>
+        </div>
+        
+        <div id = "projects" class = "projects">
+            <div id = "masks" class = "masks">
+                <div class = "description">
+                    <h3> Masks </h3>
+                    <h1> Description </h1>
+                    <h2> Masks is a Action-/ Adventure Game developed for a two weeks schoolproject. <br> The game tells the story of a pirate who travels from island to island to find valuable treasures. But on this island she 
+                    discovers strange ghosts. These ghosts give her special abilities for her use.
+                    <h1> Project task</h1>
+                    <h2>      
+                   The assignment on this project was to develop a game with the words &quot;Island&quot;, &quot;Ghost&quot; and &quot;Treasure&quot;. 
+                   This game had to be created in the <a href="https://unity.com/de/our-company" style="text-decoration: none;color: rgb(112, 112, 112);"> Game-Engine Unity </a> and with C#.
+                    <br> Part of my inspiration came from the movie <a href="https://en.wikipedia.org/wiki/Spirited_Away" style="text-decoration: none;color: rgb(112, 112, 112);"> &quot;Spirited Away&quot; </a>. 
+                    The ghosts in my game Masks share similarities in their appearances since both the <a href="#noface" style="text-decoration: none;color: rgb(112, 112, 112);"> No-Face </a> from the movie and the ghosts in my game have no distinct body and a mask as a face.
+                    As i wanted to use the theme of &quot;elementals&quot;, I found inspiration in the Nickelodeon series
+                    <a href = "https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender"  style="text-decoration: none;color: rgb(112, 112, 112);">&quot;Avatar: The Last Airbender&quot;</a>. 
+                    I searched for abilities i could use for my game. In the end I used the <a href="#aang" style="text-decoration: none;color: rgb(112, 112, 112);"> riding on a airball </a> for my game. </h2>
+                    <div style="width: 50%;">
+                        <img id="noface" src= "./src/noface.png" alt = "NoFace"></img> 
+                        <img id="aang" src= "./src/aangairball.png" alt = "Avatar"></img> 
+                    </div>
+                    <h1> Game-Trailer</h1>
+                </div>
+                <div class = "video-bereich">
+                    <iframe  class = "video-extern" src="https://www.youtube.com/embed/tZsfTn71MiY"  frameborder="0"  allowfullscreen></iframe>
+                </div>
+                <div class = "description">
+                
+                    <h1> Design</h1>
+                    <h4> Ghosts</h4>
+                    <h2>With the help of the 3D-modelling tool <a href="https://www.blender.org/about/" style="text-decoration: none;color: rgb(112, 112, 112);"> Blender </a> I built four elemantal ghosts and used them for my project. </h2>
+                    <div>
+                        <img src="./src/waterghost.png" alt = "Water Ghost"></img>
+                        <img src="./src/fireghost.png" alt = "Fire Ghost"></img>
+                    </div>
+                    <h4>Abilities</h4>
+                    <h2>On every victory over a ghost the main character gains new abilities based on the type of ghost.<br> The left picture shows a ghost sitting in water waiting for a enemy to appear. 
+                    The right picture shows a burning ghost who embodies the element of fire.  </h2> 
+                    <h5> Walls from the ground </h5>
+                    <img src="./src/wall.png" alt = "Ability Wall"></img>
+                    <h5> Cloud to float </h5>
+                    <img src="./src/cloud.png" alt = "Ability Cloud"></img>
+                    <h1> Code Snippets</h1>
+                        <h4> Positioning of the camera based on position of two ankers<img style="width:100%;" src = "./src/maskscode1.png" alt="Code1"></img> </h4>
+
+                </div>
+            </div>
+
+
+            <div id = "oceanssilence" class = "oceanssilence">
+                <div class = "description">
+                    <h3> Ocean's Silence </h3>
+                    <h1> Description </h1>
+                        <h2> Ocean&apos;s Silence is my first project with the<a href="https://unity.com/de/our-company" style="text-decoration: none;color: silver;"> Game-Engine Unity
+                        </a>. This project was programmed in C# and the objects you can see in the game are from the Unity-Assetstore.</h2> 
+                    <h1>Project task</h1>
+                        <h2>This assignment had to be a horror-game in the ego-perspective and programmed in C#.
+                        The assignment was pretty open in terms of creativity in which direction the horror-game could be developed. 
+                        Only two things had to be added to the game. One was a labrynth and the other a ruin. </h2>
+                    <h1> Game-Trailer</h1>
+                </div>
+                <div class = "video-bereich">
+                    <iframe  class = "video-extern" src="https://www.youtube.com/embed/3RhZljMXVgg"  frameborder="0"  allowfullscreen></iframe>
+                </div>
+                <div class = "description" style= "width: 100%;">
+                    <h1> Design </h1>
+                    <h2> In this project I wanted to use the aquatic theme because I think the constant sound of water around you makes a really depressing feeling in your ears. These sounds were quiet but after some time too quiet.
+                    The silence of the ocean makes the scares even more intense. </h2>
+                    <h4> The hidden ruin </h4>
+                    <h2> At the start of the game the ruin is fully covered in the sand. The ruin will rise after you solve the riddles of the game. This ruin resembles a destroyed temple which hides more clues to the main character.</h2> 
+                    <img src = "./src/ruine.png" alt = "Ruin"> </img>
+
+                    
+                    <h4> Steps </h4>
+                     <h2>As this project was my first with Unity and I didn't have much experience with coding in it, I set my sight on the animations and soundeffects. This is where I created a spiraling steps which hides under the sand until you find a
+                     clue.</h2>
+                     <img src = "./src/steps.gif" alt = "Steps"> </img>
+
+                    <h4> Labyrinth </h4>
+                    <h2> Like the ruin the labyrinth is a hidden at the start of the game. It appears as soon the player is on top of the spiraling steps. A treasure is hidden in this labyrinth but is guarded by a monster. </h2>
+                    <img src = "./src/labyrinth.png" alt = "Labyrinth"> </img>
+                </div>
+            </div>
+
+
+            <div id = "ingredientwars" class = "ingredientwars">
+                <div class = "description">
+                    <h3> Ingredient Wars </h3>
+                    <h1> Description </h1>
+                        <h2> Ingredient Wars is my first Project with the Open Source Implementation from Microsoft XNA 4 Framework <a href="https://www.monogame.net/about/" style="text-decoration: none;color: silver;">MonoGame</a>
+                         and was created with C#. </h2>
+                      <h1> Project Task</h1>
+                        <h2>The assignment to this project was to develop a game with the <a href="https://www.monogame.net/about/" style="text-decoration: none;color: silver;">MonoGame</a> Framework and a random assigned theme. 
+                        In this project i have gotten the theme "Secret Formula". 
+                        <br>Since I am a big fan of the game series <a href="https://www.ea.com/de-de/games/plants-vs-zombies" style="text-decoration: none;color:silver;">&quot;Plants vs. Zombies&quot;</a> of the publisher EA, 
+                        I decided to use a similar game mechanic to that game. <br> To meet the theme of my assignment I created a concept with the idea: Food has enough and fights to protect the secret recipes from the cooks.    </h2>
+                     <h1> Game-Trailer</h1>
+                </div>
+                <div class = "video-bereich">
+                    <iframe  class = "video-extern"  src="https://www.youtube.com/embed/CP1qqzJ0voE"  frameborder="0"  allowfullscreen></iframe>
+                </div>
+                <div class = "description">
+                   
+                    <h1> Design</h1>
+                    <h4> Characters </h4>
+                        <h2>
+                        The characters had be simple and funny looking. Like the coconut who protects itself with its hard shell.
+                        I used a banana to let the enemies slip and fall for a brief moment. <br>The tomato is the main unit in my game since it provides constant damage to the enemies.
+                        </h2>
+                    <div style="width:30%;">
+                        <img src = "./src/kokosnuss.png" alt = "Coconut"> </img>
+                        <img src = "./src/banane.png" alt = "Banana"> </img>
+                        <img src = "./src/tomate.png" alt = "Tomato"> </img>
+                    </div>
+                    <h4> playing field </h4>
+                        <h2> The design of the playing field resembles a kitchen. The floor are tiles which you can find in every professional kitchen. 
+                        <br>With the transition from dark to light colors at the upper and bottom part of the tiles, the floor is looking shiny and clean.
+                        <br>At the top and bottom of the level are working field where you can select the food you want to fight for you.
+                        <h2>
+                        <img src = "./src/Spielfeld.png" alt = "Playing field"> </img>
+                    <h1> Code Snippets</h1>
+                        <h4> Instantiate a projectile<img style="width:100%;" src = "./src/ingredientwarscode1.png" alt="Code1"></img> </h4>
+                        <h4> Finding a enemy target and instantiating a projectile<img style="width:100%;" src = "./src/ingredientwarscode2.png" alt="Code2"></img> </h4>
+
+                </div>
+            </div>
+
+
+            <div id = "nostalgames" class = "nostalgames">
+                <div class = "description">
+                    <h3> Nostal Games </h3>
+                    <h4>Description</h4>
+                    <h2>Nostal Games is a website where you can find informations to various Retro-Games and play little parts of the game itself. This was my first webproject. This project was a partner project of two.</h2>
+                    <h4> Project Task </h4>
+                    <h2> In this assignment we had to build a website with the use of HTML and CSS. The website had to be kind of a library of Retro-Games. 
+                    Nostal Games had to provide information about the games and a forum for discussions. 
+                    To find the games even easier we had to make categories for each game genre.
+                    <h4> Design </h4>
+                    <h2>My project partner and I decided to use the old layout of the DOS for our website to get the perfect Retro-Look. Paired with the old games and the layout you can see what this website does and stands for.</h2>
+                    <h5>Frontpage</h5>
+                    <h2> At the top of the frontpage you can see the logo of the website. To get a fast and easy access to the most popular games the website shows them right on the frontpage.</h2> 
+                        <img src = "./src/nostalgames.png" alt = "NostalGames Hauptseite"> </img>
+                        <img src = "./src/nostalgamesgame.png" alt = "NostalGames Spielbeispiel"> </img>
+                    <h5>Forum</h5>
+                    <h2> This forum is a example how it could look like. It is possible to click on every post title to read the full post of the person. </h2>
+                     <img src = "./src/nostalgamesforum.png" alt = "NostalGames Forum"> </img>
+                     <img src = "./src/nostalgamesforumbeitrag.png" alt = "NostalGames Forum Post"> </img>
+                </div>
+            </div>
+
+
+            <div id = "portfolio" class = "portfolio">
+                <div class = "description">
+                    <h3> Portfolio </h3>
+                </div>
+                <div class = "description">
+                    <h1> JavaScript examples of this website </h1>
+                    <h4>Navigationbar Code in the mobile version </h2>
+                    <h2>With this JavaScript Code it is possible to add new navLinks dynamicly whithout having to change any code. The navLinks slide from right in the order of the index-value of each. </h2>
+                    <img src = "./src/portfoliocode2.png" alt = "Portfolio Code 1"> </img>
+
+                    <h4> Sliding back and forth in the mobile version</h2>
+                    <h2> If a project is selected in the mobile version it is possible swipe to go back to the project selection. <br>Here I looked at the moment the swipe was made by the user. 
+                    If a swipe to right is detected the window with the project slides back and deactivates it. </h2>
+                    <img src = "./src/portfoliocode1.png" alt = "Portfolio Code 2"> </img>
+
+                </div>
+                    
+            </div>
+        </div>         
+    <div>
+  </main>
+  <footer>
+        <h1> Kontakt: </h1>
+        <div id= "icons">
+            <a href = "https://www.linkedin.com/in/gabriel-maljas-2869a1200"> <img src="./src/linkedinlogo.png"></img> </a>
+            <a href = "mailto:gabriel.maljas@web.de"> <img src="./src/mail.png"></img> </a>
+        </div>
+        <h1> Handcrafted by me </h1>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿footer{
+	font-family:'Poppins', sans-serif;
+	display:flex;
+	flex-direction: column;
+	background-color: #363636;
+	justify-content: center;
+	align-items: center;
+}
+
+ footer > h1{
+	font-size: 16px;
+	color: white;
+}
+
+
+footer > div > a > img{
+	width:30px;
+	height: 30px;
+}
+
+footer > div > a > img:hover{
+     -webkit-transform.scale(1.3);
+    transform:scale(1.3);
+    
+}
+
+footer > div > a > img{
+    transition: transform 0.25s ease;
+}
